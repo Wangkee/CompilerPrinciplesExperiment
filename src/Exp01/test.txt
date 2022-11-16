@@ -15,6 +15,7 @@ int g[N][N];
 
 int dijkstra()
 {
+    char a = 'ん';
     memset(dist, 0x3f, sizeof(dist));
     dist[1] = 0;
 

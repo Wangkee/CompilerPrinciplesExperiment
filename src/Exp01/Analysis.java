@@ -1,6 +1,7 @@
 package Exp01;
 
 
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -11,6 +12,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
+
+
 
 public class Analysis {
     //map保存单词和编码之间的映射关系
@@ -419,6 +422,7 @@ public class Analysis {
                 }
             }
             strTmp += " ";
+            // 使用DFA状态转换识别该行单词
             analysisLine(strTmp);
         }
     }
